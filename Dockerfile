@@ -1,4 +1,4 @@
-FROM 046608737331.dkr.ecr.us-west-2.amazonaws.com/fordockerdevsecops:latest
+FROM https://046608737331.dkr.ecr.us-west-2.amazonaws.com/fordockerdevsecops:latest
 COPY requirements.txt /opt/app/requirements.txt
 WORKDIR /opt/app
 RUN pip install -r requirements.txt
